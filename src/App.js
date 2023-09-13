@@ -4,7 +4,6 @@ import AboutPage from './Pages/AboutPage/AboutPage';
 import ProductAllPage from './Pages/ProductAllPage/ProductAllPage';
 import HomePage from './Pages/HomePage/HomePage';
 import Footer from './Pages/Footer/Footer';
-import ProductDetailPage from './Pages/ProductDetailPage/ProductDetailPage';
 import { useEffect, useState } from 'react';
 import User from './Pages/Account/User';
 import Login from './Pages/Account/Login';
@@ -29,7 +28,6 @@ function App() {
   // const Private = () => {
   //   return authenicate === true ? (<User/>) : (<Navigate to='/Login' />);
   // }
-  const [jsonData, setJsonData] = useState(null);
   const [personalMenu, setPersonalMenu] = useState([
     ['KOLON MALL', '/'],
     ['로그인', '/Login'],

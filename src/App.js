@@ -56,7 +56,7 @@ function App() {
 
   useEffect(() => {
     const postApi = async (name) => {
-      axios.get(`http://localhost:4000/products/`)
+      axios.get(`https://kolonmall-kang.netlify.app/products/`)
       .then((response) => {
         if (!response.status) {
           throw new Error('서버 응답 오류: ' + response.status);

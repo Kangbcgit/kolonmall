@@ -30,7 +30,7 @@ function ProductAllPage(props) {
   const getProduct = async () => {
     let searchQuery = query.get('q') || '';
     console.log('쿼리값: ', searchQuery);
-    let url = `http://localhost:4000/products?q=${searchQuery}`;
+    let url = `https://kolonmall-kang.netlify.app/products?q=${searchQuery}`;
     axios.get(url)
       .then(response => {
         if (!response.status) {

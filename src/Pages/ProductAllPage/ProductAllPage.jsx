@@ -25,9 +25,8 @@ const Wrapper = styled.div`
 function ProductAllPage(props) {
   const [data, setData] = useState(null);
   const navigate = useNavigate();
-  const location = useLocation();
   const [productList, setProductList] = useState([]);
-  const [query, setQuery] = useSearchParams();
+  const [query] = useSearchParams();
   const getProduct = async () => {
     let searchQuery = query.get('q') || '';
     console.log('쿼리값: ', searchQuery);

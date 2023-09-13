@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react'
-import { Navigate, useLocation, useParams } from 'react-router-dom';
+import { Navigate, useLocation } from 'react-router-dom';
 import ProductDetailPage from '../Pages/ProductDetailPage/ProductDetailPage';
 
 function Private(props) {

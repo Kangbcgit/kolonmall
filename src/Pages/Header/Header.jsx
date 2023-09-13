@@ -151,9 +151,9 @@ function Header(props) {
 
   const [selectLink, setSelectLink ] = useState(null);
   
-  const LinkClick = index => {
-    setSelectLink(index);
-  }
+  // const LinkClick = index => {
+  //   setSelectLink(index);
+  // }
 
   const onCheckEnter = e => {
     if (e.key === 'Enter') {

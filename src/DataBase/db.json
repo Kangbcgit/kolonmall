@@ -1,0 +1,136 @@
+{
+  "products": [
+    { 
+      "id": 0, 
+      "frontImg": "https://images.kolonmall.com/Prod_Img/KS/2023/LM1/JKJJW23222GRI_LM1.jpg",
+      "backImg": "https://images.kolonmall.com/Prod_Img/KS/2023/LZ2/JKJJW23222GRI_LZ2.jpg",
+      "title": "여성 2L 크롭 방수자켓",
+      "itemCode": "JKJJW23222GRI",
+      "price": 290000,
+      "tag":["new"],
+      "size": ["XS", "S", "M", "L"],
+      "link": "https://www.kolonmall.com/Product/JKJJW23222GRI?brand=4894"
+    },
+    { 
+      "id": 1, 
+      "frontImg": "https://images.kolonmall.com/Prod_Img/KS/2023/LM1/JWJJA23181LAK_LM1.jpg", 
+      "backImg": "https://images.kolonmall.com/Prod_Img/KS/2023/LZ2/JWJJA23181LAK_LZ2.jpg",
+      "title": "남성 컨버터블 자켓", 
+      "itemCode": "JWJJA23181LAK",
+      "price": 290000,
+      "tag": "new",
+      "size": ["95", "100", "105", "110"],
+      "link": "https://www.kolonmall.com/Product/JWJJA23181LAK?brand=4894"
+    },
+    { 
+      "id": 2, 
+      "frontImg": "https://images.kolonmall.com/Prod_Img/KS/2023/LM1/TVTBW23552BLK_LM1.jpg", 
+      "backImg": "https://images.kolonmall.com/Prod_Img/KS/2023/LZ2/TVTBW23552BLK_LZ2.jpg", 
+      "title": "여성 하이브리드 후드 티셔츠 (SET UP)", 
+      "itemCode": "TVTBW23552BLK",
+      "price": 158000,
+      "tag": "new",
+      "size": ["85", "90", "95", "100", "105"],
+      "link": "https://www.kolonmall.com/Product/TVTBW23552BLK?brand=4894"
+    },
+    { 
+      "id": 3, 
+      "frontImg": "https://images.kolonmall.com/Prod_Img/KS/2023/LM1/TVPNA23444OWH_LM1.jpg", 
+      "backImg": "https://images.kolonmall.com/Prod_Img/KS/2023/LZ2/TVPNA23444OWH_LZ2.jpg", 
+      "title": "여성 와이드 데님", 
+      "itemCode": "TVPNA23444OWH",
+      "price": 168000,
+      "tag": "new",
+      "size": ["70", "73", "76"],
+      "link": "https://www.kolonmall.com/Product/TVPNA23444OWH?brand=4894"
+    },
+    { 
+      "id": 4, 
+      "frontImg": "https://images.kolonmall.com/Prod_Img/KS/2023/LM1/TVPNA23412DTA_LM1.jpg", 
+      "backImg": "https://images.kolonmall.com/Prod_Img/KS/2023/LZ2/TVPNA23412DTA_LZ2.jpg", 
+      "title": "여성 카고 조거 팬츠", 
+      "itemCode": "TVPNA23412DTA",
+      "price": 158000,
+      "tag": "new",
+      "size": ["65", "70", "75", "80"],
+      "link": "https://www.kolonmall.com/Product/TVPNA23412DTA?brand=4894"
+    },
+    { 
+      "id": 5, 
+      "frontImg": "https://images.kolonmall.com/Prod_Img/KS/2023/LM1/TVJJA23412LPI_LM1.jpg", 
+      "backImg": "https://images.kolonmall.com/Prod_Img/KS/2023/LZ2/TVJJA23412LPI_LZ2.jpg", 
+      "title": "여성 방풍 후디 자켓", 
+      "itemCode": "TVJJA23412LPI",
+      "price": 250000,
+      "tag": "new",
+      "size": ["85", "90", "95", "100"],
+      "link": "https://www.kolonmall.com/Product/TVJJA23412LPI?brand=4894"
+    },
+    { 
+      "id": 6, 
+      "frontImg": "https://images.kolonmall.com/Prod_Img/KS/2023/LM1/JKJJW23222BLK_LM1.jpg", 
+      "backImg": "https://images.kolonmall.com/Prod_Img/KS/2023/LZ2/JKJJW23222BLK_LZ2.jpg", 
+      "title": "여성 2L 크롭 방수자켓", 
+      "itemCode": "JKJJW23222BLK",
+      "price": 290000,
+      "tag": "new",
+      "size": ["XS", "S", "M", "L"],
+      "link": "https://www.kolonmall.com/Product/JKJJW23222BLK?brand=4894"
+    },
+    { 
+      "id": 7, 
+      "frontImg": "https://images.kolonmall.com/Prod_Img/KS/2023/LM1/TLTBA23421KGY_LM1.jpg", 
+      "backImg": "https://images.kolonmall.com/Prod_Img/KS/2023/LZ2/TLTBA23421KGY_LZ2.jpg", 
+      "title": "남성 우븐 반집업 티셔츠 (SET UP)", 
+      "itemCode": "TLTBA23421KGY",
+      "price": 138000,
+      "tag": "new",
+      "size": ["95", "100", "105", "110"],
+      "link": "https://www.kolonmall.com/Product/TLTBA23421KGY?brand=4894"
+    },
+    { 
+      "id": 8, 
+      "frontImg": "https://images.kolonmall.com/Prod_Img/KS/2023/LM1/TLTBW23561WIN_LM1.jpg", 
+      "backImg": "https://images.kolonmall.com/Prod_Img/KS/2023/LZ2/TLTBW23561WIN_LZ2.jpg", 
+      "title": "남성 니트페이스 폴로 집업 티셔츠", 
+      "itemCode": "TLTBW23561WIN",
+      "price": 128000,
+      "tag": "new",
+      "size": ["95", "100", "105", "110", "115"],
+      "link": "https://www.kolonmall.com/Product/TLTBW23561WIN?brand=4894"
+    },
+    { 
+      "id": 9, 
+      "frontImg": "https://images.kolonmall.com/Prod_Img/KS/2023/LM1/TLTBA23431CRE_LM1.jpg", 
+      "backImg": "https://images.kolonmall.com/Prod_Img/KS/2023/LZ2/TLTBA23431CRE_LZ2.jpg", 
+      "title": "남녀공용 루즈핏 그래픽 후드 티셔츠", 
+      "itemCode": "TLTBA23431CRE",
+      "price": 148000,
+      "tag": "new",
+      "size": ["S", "M", "L", "XL"],
+      "link": "https://www.kolonmall.com/Product/TLTBA23431CRE?brand=4894"
+    },
+    { 
+      "id": 10, 
+      "frontImg": "https://images.kolonmall.com/Prod_Img/KS/2023/LM1/JWJJX23205LAV_LM1.jpg", 
+      "backImg": "https://images.kolonmall.com/Prod_Img/KS/2023/LZ2/JWJJX23205LAV_LZ2.jpg", 
+      "title": "남녀공용 아노락 #나일락", 
+      "itemCode": "JWJJX23205LAV",
+      "price": 250000,
+      "tag": "new",
+      "size": ["S", "M", "L", "XL"],
+      "link": "https://www.kolonmall.com/Product/JWJJX23205LAV?brand=4894"
+    },
+    { 
+      "id": 11, 
+      "frontImg": "https://images.kolonmall.com/Prod_Img/KS/2023/LM1/JWPNA23141DTA_LM1.jpg", 
+      "backImg": "https://images.kolonmall.com/Prod_Img/KS/2023/LZ2/JWPNA23141DTA_LZ2.jpg", 
+      "title": "남성 원턱 기본형 팬츠", 
+      "itemCode": "JWPNA23141DTA",
+      "price": 178000,
+      "tag": "best",
+      "size": ["78", "82", "86", "90", "96", "102"],
+      "link": "https://www.kolonmall.com/Product/JWPNA23141DTA?brand=4894"
+    }
+  ]
+}

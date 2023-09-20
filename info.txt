@@ -1,0 +1,3 @@
+23.09.20
+
+목표: 23.09.18~19에 학습한 redux에 추가로 redux middleware를 사용하는 방법~~ (redux-thunk)

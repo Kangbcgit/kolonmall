@@ -5,6 +5,8 @@ import ProductBox from '../../Component/ProductBox/ProductBox';
 import { styled } from 'styled-components';
 import { media } from '../../styles/GlobalStyle';
 import axios from 'axios';
+import { useDispatch, useSelector } from 'react-redux';
+import productAction from '../../Redux/product/action';
 
 const Wrapper = styled.div`
   display: grid;
@@ -25,26 +27,21 @@ const Wrapper = styled.div`
 function ProductAllPage(props) {
   const [data, setData] = useState(null);
   const navigate = useNavigate();
-  const [productList, setProductList] = useState([]);
+  const productList = useSelector(state => {
+    console.log('state: ', state);
+    return state.productList;
+  });
   const [query] = useSearchParams();
+  const dispatch = useDispatch();
   const getProduct = async () => {
     let searchQuery = query.get('q') || '';
-    console.log('쿼리값: ', searchQuery);
-    let url = `https://kolonmall-kang.netlify.app/products?q=${searchQuery}`;
-    axios.get(url)
-      .then(response => {
-        if (!response.status) {
-          throw new Error('서버 응답 오류: ' + response.status);
-        }
-        console.log(response.data);
-        setProductList(response.data);
-      })
+    dispatch(productAction.getProduct(searchQuery));
   }
   useEffect(() => {
     getProduct();
-  }, [query])
+  }, [])
   useEffect(() => {
-    console.log(productList)
+    console.log('hello:',productList)
   }, [productList])
   useEffect(() => {
     setData(props.data);
